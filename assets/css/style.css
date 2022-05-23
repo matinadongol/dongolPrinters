@@ -288,62 +288,62 @@ html {
 }
 
 .servicesItem:nth-child(1) .servicesItemImg{
-  background: url("/assets/images/services/services1.jpg") no-repeat center;
+  background: url("../images/services/services1.jpg") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(2) .servicesItemImg{
-  background: url("/assets/images/services/services2.jpg") no-repeat center;
+  background: url("../images/services/services2.jpg") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(3) .servicesItemImg{
-  background: url("/assets/images/services/services3.jpg") no-repeat center;
+  background: url("../images/services/services3.jpg") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(4) .servicesItemImg{
-  background: url("/assets/images/services/services4.jpg") no-repeat center;
+  background: url("../images/services/services4.jpg") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(5) .servicesItemImg{
-  background: url("/assets/images/services/services5.jpg") no-repeat center;
+  background: url("../images/services/services5.jpg") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(6) .servicesItemImg{
-  background: url("/assets/images/services/services6.jpg") no-repeat center;
+  background: url("../images/services/services6.jpg") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(7) .servicesItemImg{
-  background: url("/assets/images/services/services7.jpg") no-repeat center;
+  background: url("../images/services/services7.jpg") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(8) .servicesItemImg{
-  background: url("/assets/images/services/services8.jpg") no-repeat center;
+  background: url("../images/services/services8.jpg") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(9) .servicesItemImg{
-  background: url("/assets/images/services/services9.jpg") no-repeat center;
+  background: url("../images/services/services9.jpg") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(10) .servicesItemImg{
-  background: url("/assets/images/services/services10.jpg") no-repeat center;
+  background: url("../images/services/services10.jpg") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(11) .servicesItemImg{
-  background: url("/assets/images/services/services11.jpg") no-repeat center;
+  background: url("../images/services/services11.jpg") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(12) .servicesItemImg{
-  background: url("/assets/images/services/services12.jpg") no-repeat center;
+  background: url("../images/services/services12.jpg") no-repeat center;
   background-size: cover;
 }
 
