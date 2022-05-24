@@ -93,6 +93,10 @@
     font-size: 5rem;
   }
 
+  .testimonialsComment{
+    font-size: 2.8rem;
+  }
+
   .footer_right_content_1 p {
     font-size: 2rem;
   }
@@ -191,6 +195,11 @@
     width: 70%;
   }
 
+  .footerLogo {
+    width: 50%;
+    height: auto;
+  }
+
   .footer_right_content_3 {
     row-gap: 1rem;
   }
@@ -220,7 +229,7 @@
   }
 
   .home {
-    background-image: url("../images/home991.png");
+    background-image: url("../images/home991.webp");
     height: 70rem;
   }
 
@@ -262,7 +271,7 @@
 
 @media (max-width: 912px) {
   .home {
-    background-image: url("../images/home912.png");
+    background-image: url("../images/home912.webp");
     height: 70rem;
     background-position: top;
     background-repeat: no-repeat;
@@ -277,7 +286,7 @@
 
 @media (max-width: 820px) {
   .home {
-    background-image: url("../images/home820.png");
+    background-image: url("../images/home820.webp");
     height: 70rem;
     background-position: top;
     background-repeat: no-repeat;
@@ -321,7 +330,7 @@
 }
 
   .home {
-    background-image: url("../images/home768.png");
+    background-image: url("../images/home768.webp");
     height: 70rem;
   }
 
@@ -372,6 +381,11 @@
   .footer_icon1 {
     margin-left: 75%;
   }
+
+  /* .footerLogo {
+    width: 26rem;
+    height: 8rem;
+  } */
 }
 
 @media (max-width: 650px) {
@@ -408,7 +422,7 @@
 
 @media (max-width: 570px) {
   .home {
-    background-image: url("../images/home570.png");
+    background-image: url("../images/home570.webp");
     height: 80rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -471,63 +485,63 @@
   }
 
   .carousel-item:nth-child(1) .servicesItemMoblieImg {
-    background: url("../images/services/services1.jpg") no-repeat center;
-    background-size: cover;
+    background: url("../images/services/services1.webp") no-repeat center;
+    background-size: contain;
   }
 
   .carousel-item:nth-child(2) .servicesItemMoblieImg {
-    background: url("../images/services/services2.jpg") no-repeat center;
-    background-size: cover;
+    background: url("../images/services/services2.webp") no-repeat center;
+    background-size: contain;
   }
 
   .carousel-item:nth-child(3) .servicesItemMoblieImg {
-    background: url("../images/services/services3.jpg") no-repeat center;
-    background-size: cover;
+    background: url("../images/services/services3.webp") no-repeat center;
+    background-size: contain;
   }
 
   .carousel-item:nth-child(4) .servicesItemMoblieImg {
-    background: url("../images/services/services4.jpg") no-repeat center;
-    background-size: cover;
+    background: url("../images/services/services4.webp") no-repeat center;
+    background-size: contain;
   }
 
   .carousel-item:nth-child(5) .servicesItemMoblieImg {
-    background: url("../images/services/services5.jpg") no-repeat center;
-    background-size: cover;
+    background: url("../images/services/services5.webp") no-repeat center;
+    background-size: contain;
   }
 
   .carousel-item:nth-child(6) .servicesItemMoblieImg {
-    background: url("../images/services/services6.jpg") no-repeat center;
-    background-size: cover;
+    background: url("../images/services/services6.webp") no-repeat center;
+    background-size: contain;
   }
 
   .carousel-item:nth-child(7) .servicesItemMoblieImg {
-    background: url("../images/services/services7.jpg") no-repeat center;
-    background-size: cover;
+    background: url("../images/services/services7.webp") no-repeat center;
+    background-size: contain;
   }
 
   .carousel-item:nth-child(8) .servicesItemMoblieImg {
-    background: url("../images/services/services8.jpg") no-repeat center;
-    background-size: cover;
+    background: url("../images/services/services8.webp") no-repeat center;
+    background-size: contain;
   }
 
   .carousel-item:nth-child(9) .servicesItemMoblieImg {
-    background: url("../images/services/services9.jpg") no-repeat center;
-    background-size: cover;
+    background: url("../images/services/services9.webp") no-repeat center;
+    background-size: contain;
   }
 
   .carousel-item:nth-child(10) .servicesItemMoblieImg {
-    background: url("../images/services/services10.jpg") no-repeat center;
-    background-size: cover;
+    background: url("../images/services/services10.webp") no-repeat center;
+    background-size: contain;
   }
 
   .carousel-item:nth-child(11) .servicesItemMoblieImg {
-    background: url("../images/services/services11.jpg") no-repeat center;
-    background-size: cover;
+    background: url("../images/services/services11.webp") no-repeat center;
+    background-size: contain;
   }
 
   .carousel-item:nth-child(12) .servicesItemMoblieImg {
-    background: url("../images/services/services12.jpg") no-repeat center;
-    background-size: cover;
+    background: url("../images/services/services12.webp") no-repeat center;
+    background-size: contain;
   }
 
   .servicesItemMoblieContent {
@@ -583,7 +597,7 @@
 
 @media (max-width: 530px) {
   .home {
-    background-image: url("../images/home530.png");
+    background-image: url("../images/home530.webp");
     height: 70rem;
     background-size: 100% 100%;
   }
@@ -691,6 +705,12 @@
     flex-direction: column;
   }
 
+  .footerLogo {
+    width: 30%;
+    height: auto;
+    margin: 0 auto 3rem auto;
+  }
+
   .footer_right_content_1 p {
     width: 100%;
   }
@@ -757,8 +777,15 @@
   .footer_right_content {
     column-gap: 3rem;
   }
+
+  .footerLogo {
+    width: 50%;
+    height: auto;
+    margin: 0 auto 3rem auto;
+  }
+
   .footer_icon1 {
-    margin-left: 30%;
+    margin: 0 auto
   }
 }
 
@@ -770,7 +797,7 @@
 
 @media (max-width: 290px) {
   .home {
-    background-image: url("../images/home290.png");
+    background-image: url("../images/home290.webp");
     height: 95rem;
     background-size: 100% 100%;
   }

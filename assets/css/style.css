@@ -31,9 +31,13 @@ html {
   background-color: #4c4c4c;
 }
 
+.modal-backdrop{
+  --bs-backdrop-opacity: 0;
+}
+
 /* navbar start */
 .navbarPadding{
-  padding: 1% 10% 0 10%;
+  padding: 0 10%;
 }
 .navbar-brand{
   width: 18rem;
@@ -49,7 +53,8 @@ html {
 }
 
 .scroll{
-  backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(5px); */
+  background-color: rgb(244, 244, 244);
 }
 
 .nav-link {
@@ -62,7 +67,7 @@ html {
   font-size: 3rem !important;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-pills .nav-link.active {
   background: #0b5394;
   color: #fff;
 }
@@ -113,7 +118,7 @@ html {
 
 /* home start */
 .home{
-  background-image: url("../images/home1880.png");
+  background-image: url("../images/home1880.webp");
   height: 80rem;
   background-size: cover;
   background-position: center;
@@ -228,7 +233,7 @@ html {
 }
 
 .about_right{
-  background-image: url("../images/DongolPrintersLogoBlur.png");
+  background-image: url("../images/DongolPrintersLogoBlur.webp");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -288,62 +293,62 @@ html {
 }
 
 .servicesItem:nth-child(1) .servicesItemImg{
-  background: url("../images/services/services1.jpg") no-repeat center;
+  background: url("../images/services/services1.webp") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(2) .servicesItemImg{
-  background: url("../images/services/services2.jpg") no-repeat center;
+  background: url("../images/services/services2.webp") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(3) .servicesItemImg{
-  background: url("../images/services/services3.jpg") no-repeat center;
+  background: url("../images/services/services3.webp") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(4) .servicesItemImg{
-  background: url("../images/services/services4.jpg") no-repeat center;
+  background: url("../images/services/services4.webp") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(5) .servicesItemImg{
-  background: url("../images/services/services5.jpg") no-repeat center;
+  background: url("../images/services/services5.webp") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(6) .servicesItemImg{
-  background: url("../images/services/services6.jpg") no-repeat center;
+  background: url("../images/services/services6.webp") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(7) .servicesItemImg{
-  background: url("../images/services/services7.jpg") no-repeat center;
+  background: url("../images/services/services7.webp") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(8) .servicesItemImg{
-  background: url("../images/services/services8.jpg") no-repeat center;
+  background: url("../images/services/services8.webp") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(9) .servicesItemImg{
-  background: url("../images/services/services9.jpg") no-repeat center;
+  background: url("../images/services/services9.webp") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(10) .servicesItemImg{
-  background: url("../images/services/services10.jpg") no-repeat center;
+  background: url("../images/services/services10.webp") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(11) .servicesItemImg{
-  background: url("../images/services/services11.jpg") no-repeat center;
+  background: url("../images/services/services11.webp") no-repeat center;
   background-size: cover;
 }
 
 .servicesItem:nth-child(12) .servicesItemImg{
-  background: url("../images/services/services12.jpg") no-repeat center;
+  background: url("../images/services/services12.webp") no-repeat center;
   background-size: cover;
 }
 
@@ -474,7 +479,7 @@ html {
   color: #1e496f;
 }
 
-.testimoialsComment{
+.testimonialsComment{
   font-size: 2.2rem;
   z-index: 2;
   margin: 2rem 0 0.5rem 0;
@@ -565,10 +570,15 @@ html {
   margin: 1rem auto 0 auto;
 }
 
-.footer_right_content_2 img {
-  width: 20rem;
+.footerLogo {
+  width: 50%;
   height: auto;
-  margin: 1rem 0 2rem 0;
+  margin: 1rem 0 2rem auto;
+}
+
+.footerLogo img{
+  width: 100%;
+  height: 100%;
 }
 
 .footer_icon1 {
